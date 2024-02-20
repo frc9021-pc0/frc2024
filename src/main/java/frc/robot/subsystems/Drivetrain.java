@@ -5,7 +5,8 @@ import edu.wpi.first.units.Per;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 import edu.wpi.first.wpilibj.motorcontrol.VictorSP;
-import frc.robot.Constants;;
+import frc.robot.Constants;
+
 public class Drivetrain {
 
     private static Drivetrain drivetrain = new Drivetrain();
@@ -28,6 +29,10 @@ public class Drivetrain {
 
     public void driveHalt(){
         driveTrain.tankDrive(0, 0);
+    }
+    
+    public void throttle(){
+
     }
 
     public static void executeTankDrive(double speed){

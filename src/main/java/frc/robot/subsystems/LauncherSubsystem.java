@@ -14,7 +14,7 @@ import edu.wpi.first.wpilibj2.command.WaitCommand;
 
 public class LauncherSubsystem extends SubsystemBase {
 
-  private XboxController launcherController = new XboxController(Constants.LaunchersConstants.LAUNCHER_CONTROLLER_PORT);
+  public XboxController firstDriversController = new XboxController(Constants.ControllersConstants.FIRST_DRIVERS_CONTROLLER);
   public PWMSparkMax leftCIMMotor; // CIM motor left.
   public PWMSparkMax rightCIMMotor; // CIM motor right.
 

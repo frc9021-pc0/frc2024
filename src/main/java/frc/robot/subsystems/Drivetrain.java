@@ -3,7 +3,6 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.units.Per;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 import edu.wpi.first.wpilibj.motorcontrol.VictorSP;
 import frc.robot.Constants;
 

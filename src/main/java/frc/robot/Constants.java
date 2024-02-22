@@ -22,24 +22,29 @@ public final class Constants {
   }
 
   public static final class ControllersConstants {
-    public static final int FIRST_DRIVERS_CONTROLLER = 1; // controller port for egemen's gamepad   
-    public static final int SECOND_DRIVERS_CONTROLLER = 2;  // controller port for kazım's gamepad
+    public static final int FIRST_DRIVERS_CONTROLLER = 0; // controller port for egemen's gamepad   
+    public static final int SECOND_DRIVERS_CONTROLLER = 1;  // controller port for kazım's gamepad
   }
 
   public static final class LaunchersConstants {
-      public static final int LEFT_CIM_MOTOR = 0; 
-      public static final int RIGHT_CIM_MOTOR = 1; 
+      public static final int LEFT_CIM_MOTOR = 1; 
+      public static final int RIGHT_CIM_MOTOR = 0; 
+  }
+  public static final class LiftsConstant{
+      public static final int LL_CIM_MOTOR = 0; //Left Lift CIM Motor
+      public static final int RL_CIM_MOTOR = 0; // Right Lift CIM Motor 
   }
 
   public static final class IntakesConstants{
     public static final int INTAKE_NEO_MOTOR = 0;
+
   }
 
-  public static final int CHASSIS_CONTROLLER_PORT = 2; // Port number for the chassis controller
-  public static final int LF_MOTOR_CHANNEL = 1;
-  public static final int RF_MOTOR_CHANNEL = 1;
-  public static final int LR_MOTOR_CHANNEL = 1;
-  public static final int RR_MOTOR_CHANNEL = 1;
+
+  public static final int LF_MOTOR_CHANNEL = 0;
+  public static final int RF_MOTOR_CHANNEL = 0;
+  public static final int LR_MOTOR_CHANNEL = 0;
+  public static final int RR_MOTOR_CHANNEL = 0;
 
   public static final VictorSP LF_MOTOR = new VictorSP(LF_MOTOR_CHANNEL);
   public static final VictorSP RF_MOTOR = new VictorSP(RF_MOTOR_CHANNEL);

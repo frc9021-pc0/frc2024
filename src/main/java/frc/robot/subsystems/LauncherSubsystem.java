@@ -5,7 +5,6 @@
 package frc.robot.subsystems;
 
 import frc.robot.Constants;
-import frc.robot.Constants.LaunchersConstants;
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -54,4 +53,9 @@ public class LauncherSubsystem extends SubsystemBase {
   public void simulationPeriodic() {
     // This method will be called once per scheduler run during simulation
   }
+
+public Command exampleMethodCommand() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'exampleMethodCommand'");
+}
 }
